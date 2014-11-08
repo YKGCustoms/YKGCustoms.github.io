@@ -73,7 +73,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: #fec503;
     background-color: #fed136;
 }
 
@@ -83,7 +83,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
-    color: #fff;
+    color: #fec503;
     background-color: #fec503;
 }
 
@@ -419,6 +419,10 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
+}
+
+div.mapcanvas {
+
 }
 
 @media(min-width:767px) {
@@ -878,7 +882,7 @@ body {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #fec503;
     background: rgba(255,255,255,.1);
 }
 
