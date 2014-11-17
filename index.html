@@ -18,6 +18,7 @@
 
     <!-- Custom CSS -->
     <link href="ykg.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,33 +34,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<style>
-aside.left {
-    float: left;
-    width: 50%;
-}
-
-div.left {
-    float: left;
-    width: 50%;
-    min-height: 100%;
-}
-
-aside.right {
-    float: right;
-    width: 50%;
-}
-
-div.right {
-    float: right;
-    width: 50%;
-}
-iframe {
-    float: center;
-    width: 100%;
-    height: 100%
-}
-</style>
 
 </head>
 
@@ -111,11 +85,30 @@ iframe {
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading"><h2>Our website is currently under construction. Please visit back soon!</h2></div>
-                <div class="intro-lead-in">We bring the personalization to your favorite items.</div>
-                <a href="#about" class="btn btn-circle page-scroll">
-                    <i class="fa fa-angle-double-down animated"></i>
-                </a>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <font size="7">
+                            Welcome to our website!
+                        </font>
+                        <br>
+                        <br>
+                        <h3>Current Promotions:</h3>
+                        <font size="4">
+                            Order by December 15th and your personalized items are guarenteed by December 24th!<br>
+                            New customers get 15% off their first purchase!<br>
+                            Help us spread the word: Refer 3 customers and receive $5 credit!
+                        </font>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-lead-in">We bring the personalization to your favorite items.</div>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -125,13 +118,21 @@ iframe {
     <!-- About Us Section -->
 
     <section id="about" class="container content-section text-center">
+        <div class="row about-us">
+            <div class="col-lg-10 col-lg-offset-1">
+        <font size="7">ABOUT US</font>
+        <br>
+            </div>
+        </div>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <font size="7">ABOUT US</font>
-                <br>
-                <br>
-                <br>
-                <font size="5">Welcome to our website! We are a small customization company based in the New York Metro Area. We specialize in creating unique gifts for friends, family, and colleagues alike. We also offer a large variety of other customized products and engraving services. We strive to provide our valued customers with a top-notch customer service experience and provide only the greatest quality goods.</font>
+            <div class="col-lg-4">
+                <font size="5">Welcome to our website! We are a small customization company based in the New York Metro Area. We specialize in creating unique gifts for friends, family, and colleagues alike. We also offer a large variety of other customized products and engraving services.</font>
+            </div>
+            <div class="col-lg-4">
+                <center><img src="img\about\WoodEngravedLogo.JPG" class="img-responsive"></center>
+            </div>
+            <div class="col-lg-4">
+                <font size="5">We strive to provide our valued customers with a top-notch customer service experience and provide only the greatest quality goods. We try especially hard to keep out lines of communication open. So, we encourage you to contact us anyway you prefer!</font>
             </div>
         </div>
         <a href="#services" class="btn btn-circle page-scroll">
@@ -143,16 +144,24 @@ iframe {
 
     <!-- Services Section -->
     
-    <section id="services" class="container content-section text-center">
+    <section id="services" class="container text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-12">
                     <font size="7">SERVICES</font>
-                <br>
-                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
                 <br>
                 <font size="5">Add a touch of you.<font>
                     <br>
-                <font size="5">Bring us your items and we'll make it better by personalizing it just for you. We can engrave text or images on your favorite wood, plastic, and leather goods. Don't see something you like in our stock inventory? Don't worry. Send your item our way and we'll customize it just for you. <br> Note: Maximum item size for engraving is 8"x10"<font>  
+                <font size="5">Bring us your items and we'll make it better by personalizing it just for you. We can engrave text or images on your favorite wood, plastic, and leather goods. Don't see something you like in our stock inventory? Don't worry. Send your item our way and we'll customize it just for you. <br> Note: Maximum item size for engraving is 8"x10"x4" <br><font>  
+                </div>
+                <br>
+            <div class="col-lg-6">
+                <text size="2">We now offer delivery services to anywhere in Bergen County and surrounding areas for all purchases of $50 or more!</text><br>
+                <div class="col-md-8 col-md-offset-2">
+                <img src="http://www.golime.co/Portals/125055/images/it_service_delivery.jpg" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -165,14 +174,16 @@ iframe {
     <section id="products" class="container content-section text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
                     <font size="7">PRODUCTS</font>
                     <br>
-                    <text size="2">Order from our large collection of stock merchandise for the quickest turn around time.</text>
+                    <br>
+                    <text size="2">We make shopping easy with two ways to buy:<br>1. Contact us by Phone/SMS, Email, or Social Media and we'll work with you one on one to tailor your ideal customized product. Take a look at our portfolio below to get some inspiration.<br>2. Visit our online store below to learn more about your options. This is the best way to order gifts for family and friends.</text>
                 </div>
             </div>
             <br>
             <div class="row">
+                <h2>Take a look at our portfolio of previous works.</h2><br>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <img src="img\imageunavail.PNG" class="img-responsive">
@@ -229,9 +240,6 @@ iframe {
                 </div>
             </div>
         </div>
-                <a href="#e-store" class="btn btn-circle page-scroll">
-                    <i class="fa fa-angle-double-down animated"></i>
-                </a>
     </section>
     
     <!-- E-store Section -->
@@ -243,13 +251,18 @@ iframe {
             <div class="row">
                 <div class="col-lg-12 text-center">
                 <font size="7">ONLINE STORE</font>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-7 text-center">
+                <text>Generic Customization. Sounds like an oxymoron but that's exactly what we offer with our online store! The image you see is the design that we will use to customized your chosen good. Just include your name and expect to see your new item with a touch of you.</text>
                 <br>
-                <br>
-                <br>
-                <br>
-                <text size="2">Our online store is currently under construction.</text>
-                <br>
-                <text size="2">You can visit our outsourced store <a href="https://ykgcustoms.bigcartel.com" target="_blank">here</a>.</text>
+                <text>You can visit our outsourced store <a href="https://ykgcustoms.bigcartel.com" target="_blank">here</a>.</text><br>
+                <text><i>All online store orders include fees that may not exist with phone and email orders. Contact us directly for more information and the lowest available prices.</i></text>
+                </div>
+                <div class="col-lg-5 text-center">
+                    Image of Initials with Name
                 </div>
              </div>
     </div>
