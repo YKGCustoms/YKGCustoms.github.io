@@ -982,3 +982,7 @@ div .row .about-us {
 #seasonal{
     padding-top: 10px
 }
+
+#image-rotate{
+    overflow: hidden;
+}
